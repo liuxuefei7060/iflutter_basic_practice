@@ -74,6 +74,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - assets/images/img_ceshi1.png
+    - assets/images/img_ceshi_big.jpg
+
   fonts:
     - family: Raleway
       fonts:
