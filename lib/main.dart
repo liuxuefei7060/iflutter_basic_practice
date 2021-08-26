@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:iflutter_basic_practice/sys_widget/basic/basic_widget_page.dart';
-import 'package:iflutter_basic_practice/sys_widget/basic/image_practice.dart';
-
-import 'sys_widget/basic/button_practice.dart';
-import 'sys_widget/system_widget_page.dart';
-import 'sys_widget/basic/text_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/basic/basic_widget_page.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/basic/button_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/basic/image_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/basic/text_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/layout/column_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/layout/layout_widget_page.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/layout/row_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/layout/stack_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/layout/warp_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/system_widget_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,6 +22,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       routes: {
         'BasicWidgetPage': (context) => BasicWidgetPage(),
+        'LayoutWidgetPage': (context) => LayoutWidgetPage(),
+        'ColumnPractice': (context) => ColumnPractice(),
+        'RowPractice': (context) => RowPractice(),
+        'StackPractice': (context) => StackPractice(),
+        'WrapPractice': (context) => WrapPractice(),
         'TextPracticePage': (context) => TextPracticePage(),
         'ButtonPracticePage': (context) => ButtonPracticePage(),
         'ImagePracticePage': (context) => ImagePracticePage()
@@ -62,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: Icon(
                   Icons.home,
                 ),
-                label: "首页"),
+                label: "组件"),
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.favorite,
