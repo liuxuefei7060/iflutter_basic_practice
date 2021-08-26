@@ -3,6 +3,7 @@ import 'package:iflutter_basic_practice/pages/sys_widget/basic/basic_widget_page
 import 'package:iflutter_basic_practice/pages/sys_widget/basic/button_practice.dart';
 import 'package:iflutter_basic_practice/pages/sys_widget/basic/image_practice.dart';
 import 'package:iflutter_basic_practice/pages/sys_widget/basic/text_practice.dart';
+import 'package:iflutter_basic_practice/pages/sys_widget/layout/align_practice.dart';
 import 'package:iflutter_basic_practice/pages/sys_widget/layout/column_practice.dart';
 import 'package:iflutter_basic_practice/pages/sys_widget/layout/layout_widget_page.dart';
 import 'package:iflutter_basic_practice/pages/sys_widget/layout/row_practice.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         'RowPractice': (context) => RowPractice(),
         'StackPractice': (context) => StackPractice(),
         'WrapPractice': (context) => WrapPractice(),
+        'AlignPractice': (context) => AlignPractice(),
         'TextPracticePage': (context) => TextPracticePage(),
         'ButtonPracticePage': (context) => ButtonPracticePage(),
         'ImagePracticePage': (context) => ImagePracticePage()

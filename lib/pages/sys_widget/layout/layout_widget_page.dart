@@ -47,6 +47,15 @@ class LayoutWidgetPage extends StatelessWidget {
               child: Text('Wrap 使用'),
             ),
           ),
+          Container(
+            margin: EdgeInsets.fromLTRB(10, 0, 10, 10),
+            child: OutlinedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "AlignPractice");
+              },
+              child: Text('Align 使用'),
+            ),
+          ),
         ],
       ),
     );
